@@ -10,14 +10,14 @@ FROM base AS dependencies
 
 COPY package*.json ./
 
-RUN npm ci --only=production && \
+RUN npm install --omit=dev && \
     npm cache clean --force
 
 FROM base AS build
 
 COPY package*.json ./
 
-RUN npm ci
+RUN npm install
 
 COPY server ./server
 
