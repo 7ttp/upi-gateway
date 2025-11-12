@@ -28,10 +28,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/upi-payment-gateway.git"
+    "url": "https://github.com/7ttp/upi-gateway.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/upi-payment-gateway/issues"
+    "url": "https://github.com/7ttp/upi-gateway/issues"
   },
   "engines": {
     "node": ">=18.0.0",

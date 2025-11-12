@@ -60,8 +60,8 @@ graph TB
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/upi-payment-gateway.git
-cd upi-payment-gateway
+git clone https://github.com/7ttp/upi-gateway.git
+cd upi-gateway
 
 # 2. Install dependencies
 npm install
